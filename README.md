@@ -1,6 +1,6 @@
 # Device Localization Using Particle Filter over DOA of Wireless Signals
 ## Overview
-This repository contains the datasets and scripts used in the experimentation for localization algorithms. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, and 3. Dataset2. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, however, realworld exprimentation require datasets.
+This repository contains the datasets and scripts used in the experimentation for localization algorithms. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, and 3. Dataset2. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
 ### Simulation
 Simulation experimentations taken place for 6 x 6 meter of bounded region where Access Point is placed on the top of the moving robot and wireless sensor nodes places at the fixed positions (corners) which are (0,0), (0,6), (6,0), and (6,6) respectively. Robot followed three different trajectoriers: Inside, Boundary and Diagonal. For each of the trajectory we predicted the position using multiple localization techniques and proposed approach as well. ![Combined Trajectory](/images/combined_trajectories.png). In the Simulation folder there is a separate python script file for each localization technique.
 
