@@ -8,14 +8,14 @@ To execute the script run: `$ python3 <script_file>`
 ### Dataset1
 It contains script files same as simulation to run algorithms on data available in csv files.
 
-To execute the script run: `$ python3 <script_file>` <dataset file>
+To execute the script run: `$ python3 <script_file> <dataset file>`
   
 The reference at [1] povides details of the dataset completly.
  
  ### Dataset2
 It contains script files same as simulation to run algorithms on data available in csv files.
 
-To execute the script run: `$ python3 <script_file>` <dataset file>
+To execute the script run: `$ python3 <script_file> <dataset file>`
   
 The reference at [2] povides details of the dataset completly.
 ### References
