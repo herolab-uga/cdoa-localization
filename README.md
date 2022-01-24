@@ -4,7 +4,7 @@ This repository contains the datasets and scripts used in the experimentation fo
 Visualize the system as: 
 
 ![Overview](/images/overview.png)
-### Simulation
+### Simulation (Dataset 0)
 Simulation experimentations taken place for 6 x 6 meter of bounded region where Access Point is placed on the top of the moving robot and wireless sensor nodes places at the fixed positions (corners) which are (0,0), (0,6), (6,0), and (6,6) respectively. Robot followed three different trajectoriers: Inside, Boundary and Diagonal. For each of the trajectory we predicted the position using multiple localization techniques and proposed approach as well.
 
 ![Combined Trajectory](/images/combined_trajectories.png).
