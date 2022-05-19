@@ -1,6 +1,6 @@
 # Device Localization Using Particle Filter over DOA of Wireless Signals
 ## Overview
-This repository contains the datasets and scripts used in the experimentation for localization algorithms. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, and 3. Dataset2. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
+This repository contains the datasets and scripts used in the experimentation for localization algorithms. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, 3. Dataset2, 4. Hardware. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
 Visualize the system as: 
 
 ![Overview](/images/overview.png)
@@ -21,7 +21,7 @@ Experimenatation Testbed and datapoints can be visualized as:
 
 ![dataset1](/images/dataset1.png)
 
-The reference at [1] povides details of the dataset completly.
+The reference at [1] povides details of the dataset completely.
  
  ### Dataset2
 It contains script files same as simulation to run algorithms on data available in csv files.
@@ -31,8 +31,19 @@ To execute the script run: `$ python3 <script_file> <dataset file>`
 Experimenatation Testbed and datapoints can be visualized as:
 
 ![dataset2](/images/dataset2.png)
+The reference at [2] povides details of the dataset completely.
 
-The reference at [2] povides details of the dataset completly.
+ ### Hardware
+This folder contains ros package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
+Furthemore, a folder contains dataset in the form of rosbags, one can easily extract data rosbags. However, we also have provided dataset int he form of .csv for convinience in the respective folders.
+It also contains script file to run algorithms on data available in csv files.
+
+To execute the script run: `$ python3 <script_file> <dataset file>`
+
+Experimenatation Testbed and datapoints can be visualized as:
+
+![trajectories](/hardware/trajectories/predicted_trajectory_exp2.png)
+
 ### References
 
 [1] "Rssi  dataset  for  indoor  localization  fingerprinting."  [Online].Available: https://github.com/pspachos/RSSI-Dataset-for-Indoor-Localization-Fingerprinting.git
