@@ -143,6 +143,7 @@ for i in range(0,len(original_tragectory)):
     min_error = min(errors)
     min_index = errors.index(min_error)
     pos=positions[min_index]
+    print(pos)
     previous_errors.append(errors[min_index])
     distance_error.append(dist(pos[0],pos[1],original_tragectory[i]))
 
