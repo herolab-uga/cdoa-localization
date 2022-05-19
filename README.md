@@ -35,9 +35,13 @@ The reference at [2] povides details of the dataset completely.
 
  ### Hardware
 This folder contains ros package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
+
 To launch the network_analysis run: `$ roslaunch network_analysis wireless_quality.launch <node_id>`
+
 Another ros package for ROS master named ros_rssi_collaboration needs to be run to receive rssi from each node in a synchronous way.
+
 To launch the rssi_collaboration run: `$ roslaunch rssi_collaboration rssi_collaboration.launch`
+
 Furthemore, a folder contains dataset in the form of rosbags, one can easily extract data rosbags. However, we also have provided dataset int he form of .csv for convinience in the respective folders.
 It also contains script file to run algorithms on data available in csv files.
 
@@ -45,7 +49,7 @@ To execute the script run: `$ python3 <script_file> <dataset file>`
 
 Experimenatation Testbed and datapoints can be visualized as:
 
-![trajectories](/hardware/trajectories/hardware_experiment_trajectory.png.png)
+![trajectories](/hardware/trajectories/hardware_experiment_trajectory.png)
 
 ### References
 
