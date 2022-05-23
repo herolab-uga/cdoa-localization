@@ -10,7 +10,7 @@ The proposed localization framwwork can be visualizes as:
 
 ![Overview](/images/overview.png)
 
-![Hardware Demo](/image/hardware_testbed.png)
+![Hardware Demo](/images/hardware_testbed.png)
 
 On the Left, the Wireless Sensor Network (WSN) anchor nodes are placed at the corners and the Mobile Robot can be localized within the WSN's boundary polygon. 
 
