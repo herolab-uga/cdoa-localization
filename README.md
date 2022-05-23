@@ -1,4 +1,8 @@
 # Device Localization Using Particle Filter over DOA of Wireless Signals
+
+## Paper Link
+Please check the paper's preprint and Appendix at http://hero.uga.edu/research/localization
+
 ## Overview
 This repository contains the datasets and scripts used in the experimentation for localization algorithms. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, 3. Dataset2, 4. Hardware. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
 Visualize the system as: 
