@@ -60,10 +60,11 @@ The reference at [2] povides details of the dataset completely.
  ### Hardware [Hardware Demonstration Experiment Dataset]
  
 This folder contains ros package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
+For latest source code on this package, please download the ros_network_analysis package from its source code following the instructions at https://github.com/herolab-uga/ros-network-analysis 
 
 To launch the network_analysis run: `$ roslaunch network_analysis wireless_quality.launch <node_id>`
 
-Another ros package for ROS master named ros_rssi_collaboration needs to be run to receive rssi from each node in a synchronous way.
+Another ROS package for ROS master named "ros_rssi_collaboration" needs to be installed to run the RSSI node collaboration algorithm and receive rssi from each node in a synchronous way.
 
 To launch the rssi_collaboration run: `$ roslaunch rssi_collaboration rssi_collaboration.launch`
 
