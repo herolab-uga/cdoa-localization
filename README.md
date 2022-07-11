@@ -6,7 +6,7 @@ Please check the paper's preprint and Appendix at http://hero.uga.edu/research/l
 ## Overview
 This repository contains the datasets and scripts used in the experimentation for localization algorithm using Wireless signal Direction of Arrival (DOA) estimated using a mobile robot - wireless sensor network (WSN) cooperation mechanism in real-time. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, 3. Dataset2, 4. Hardware. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
 
-The proposed localization framwwork can be visualizes as: 
+The proposed localization framework can be visualizes as: 
 
 ![Overview](/images/overview.png)
 
