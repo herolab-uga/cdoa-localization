@@ -1,10 +1,10 @@
-# Device Localization Using Particle Filter over DOA of Wireless Signals
+# Mobile Robot/Device Localization Using Particle Filter over DOA of Wireless Signals
 
 ## Paper Link
 Please check the paper's preprint and Appendix at http://hero.uga.edu/research/localization
 
 ## Overview
-This repository contains the datasets and scripts used in the experimentation for localization algorithm using Wireless signal Direction of Arrival (DOA) estimated using a mobile robot - wireless sensor network (WSN) cooperation mechanism in real-time. Three set of experimentational content is provided in this repository: 1. Simulation, 2.Dataset1, 3. Dataset2, 4. Hardware. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
+This repository contains the datasets and scripts used in the experimentation for localization algorithm using Wireless signal Direction of Arrival (DOA) estimated using a mobile robot - wireless sensor network (WSN) cooperation mechanism in real-time. Three set of experimentational content is provided in this repository: 1. Simulation (Dataset 0), 2. Real-world public datasets (Dataset1 and Dataset2), 4. Real Robot Hardware Dataset. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
 
 The proposed localization framework can be visualizes as: 
 
@@ -82,4 +82,28 @@ Experimenatation Testbed and datapoints can be visualized as:
 [1] Pachos et al. "Rssi  dataset  for  indoor  localization  fingerprinting."  [Online]. Available: https://github.com/pspachos/RSSI-Dataset-for-Indoor-Localization-Fingerprinting.git
 
 [2]  P.    Szeli ́nski    and    M.    Nikodem,    "Multi-channel    BLE    RSSI measurements for indoor localization," 2021. [Online]. Available: https://dx.doi.org/10.21227/hc74-3s30
+
+
+
+## Core contributors
+
+* **Ehsan Latif** - PhD student
+
+* **Dr.Ramviyas Parasuraman** - Principal Investigator
+
+
+## Heterogeneous Robotics (HeRoLab)
+
+Heterogeneous Robotics Research Lab (HeRoLab) of the University of Georgia.
+
+Please contact hero at uga . edu for any queries
+
+http://hero.uga.edu/
+
+<p align="center">
+<img src="http://hero.uga.edu/wp-content/uploads/2021/04/herolab_newlogo_whitebg.png" width="300">
+</p>
+
+
+
 
