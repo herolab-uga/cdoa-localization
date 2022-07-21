@@ -90,7 +90,7 @@ Experimenatation Testbed and datapoints can be visualized as:
 
 * **Ehsan Latif** - PhD student
 
-* **Dr.Ramviyas Parasuraman** - Principal Investigator
+* **Dr. Ramviyas Parasuraman** - Principal Investigator
 
 
 ## Heterogeneous Robotics (HeRoLab)
