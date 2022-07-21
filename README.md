@@ -95,9 +95,9 @@ Experimenatation Testbed and datapoints can be visualized as:
 
 ## Heterogeneous Robotics (HeRoLab)
 
-Heterogeneous Robotics Research Lab (HeRoLab) of the University of Georgia.
+**Heterogeneous Robotics Lab (HeRoLab), Department of Computer Science, University of Georgia.** http://hero.uga.edu 
 
-Please contact hero at uga . edu for any queries
+For further information, contact Ehsan Latif ehsan.latif@uga.edu or Prof. Ramviyas Parasuraman ramviyas@uga.edu
 
 http://hero.uga.edu/
 
