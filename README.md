@@ -59,20 +59,29 @@ Experimenatation Testbed and datapoints can be visualized as:
 The reference at [2] povides details of the dataset completely.
 
  ### Hardware [Hardware Demonstration Experiment Dataset]
- 
+ #### Offline Locaization
+##### Node Publisher
 This folder contains ros package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
 For latest source code on this package, please download the ros_network_analysis package from its source code following the instructions at https://github.com/herolab-uga/ros-network-analysis 
 
 To launch the network_analysis run: `$ roslaunch network_analysis wireless_quality.launch <node_id>`
 
-Another ROS package for ROS master named "ros_rssi_collaboration" needs to be installed to run the RSSI node collaboration algorithm and receive rssi from each node in a synchronous way.
+##### Record RSSI through Collaboration
+Another ROS package named "ros_rssi_collaboration" needs to be installed to run the RSSI node collaboration algorithm and receive rssi from each node in a synchronous way.
 
-To launch the rssi_collaboration run: `$ roslaunch rssi_collaboration rssi_collaboration.launch`
+To launch the *rssi_collaboration* run: `$ roslaunch rssi_collaboration rssi_collaboration.launch`
 
 Furthemore, a folder contains dataset in the form of rosbags, one can easily extract data rosbags. However, we also have provided dataset int he form of .csv for convinience in the respective folders.
 It also contains script file to run algorithms on data available in csv files.
 
-To execute the script run: `$ python3 <script_file> <dataset file>`
+To run localziation over recorded odom and rssi, execute the script run: `$ python3 <script_file> <dataset file>`
+
+#### Online Localization
+ROS package named "ros_pf_doa_localization" needs to be installed to run the online localization over received  rssi through node collaboration in a synchronous fasion.
+
+To launch the *ros_pf_doa_localization* run: `$ roslaunch ros_pf_doa_localization ros_pf_doa_localization.launch`
+
+It will launch online localization script which receives RSSI from connected nodes and provide real-time pose estimation along with the ground truth.
 
 Experimenatation Testbed and datapoints can be visualized as:
 
