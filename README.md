@@ -19,6 +19,8 @@ Although we present the experimental results for the WSN nodes/AP anchors in a s
 A hardware demonstration experiment setup is shown below using the configuration of WSN anchor nodes.
 
 ![Hardware Demo](/images/hardware_testbed.png)
+### Real robot localization experimentation
+![Hardware Demo](/images/PF-DOA-Demo.gif)
 
 
 Below, we present different datasets and associated robot localization trajectories or information.
