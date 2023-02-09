@@ -85,7 +85,7 @@ It will launch online localization script which receives RSSI from connected nod
 
 Experimenatation Testbed and datapoints can be visualized as:
 
-![trajectories](/hardware/trajectories/hardware_experiment_trajectory.png)
+![trajectories](/ros/trajectories/hardware_experiment_trajectory.png)
 
 ### References
 
