@@ -26,7 +26,7 @@ A hardware demonstration experiment setup is shown below using the configuration
 Below, we present different datasets and associated robot localization trajectories or information.
 
 
-### Dataset 0 [Simulation Experiments Datasets]
+### Simulation [Experimental Datasets]
 
 Simulation experimentations taken place for 6 x 6 meter of bounded region where Access Point is placed on the top of the moving robot and wireless sensor nodes places at the fixed positions (corners) which are (0,0), (0,6), (6,0), and (6,6) respectively. Robot followed three different trajectoriers: Inside, Boundary and Diagonal. For each of the trajectory we predicted the position using multiple localization techniques and proposed approach as well.
 
@@ -60,7 +60,7 @@ Experimenatation Testbed and datapoints can be visualized as:
 
 The reference at [2] povides details of the dataset completely.
 
- ### Hardware [Hardware Demonstration Experiment Dataset]
+ ### ros [ROS based hardware Demonstration Experiment Dataset]
  #### Offline Locaization
 ##### Node Publisher
 This folder contains ros package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
