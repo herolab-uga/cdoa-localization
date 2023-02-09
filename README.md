@@ -1,10 +1,7 @@
-# Mobile Robot/Device Localization Using Particle Filter over DOA of Wireless Signals
-
-## Paper Link
-Please check the paper's preprint and Appendix at http://hero.uga.edu/research/localization
+Instantaneous Wireless Robotic Node Localization Using Collaborative Direction of Arrival
 
 ## Overview
-This repository contains the datasets and scripts used in the experimentation for localization algorithm using Wireless signal Direction of Arrival (DOA) estimated using a mobile robot - wireless sensor network (WSN) cooperation mechanism in real-time. Three set of experimentational content is provided in this repository: 1. Simulation (Dataset 0), 2. Real-world public datasets from the literature (Dataset1 [1] and Dataset2 [2]), 4. Real Robot Hardware Dataset. Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
+This repository contains the datasets and scripts used in the experimentation for localization algorithm using Wireless signal Collaborative Direction of Arrival (CDOA) estimated using a mobile robot - wireless sensor network (WSN) cooperation mechanism in real-time. Three set of experimentational content is provided in this repository: 1. Simulation (Datasets and Codes), 2. Real-world public datasets from the literature (Dataset1 [1] and Dataset2 [2]), 4. Real Robot Hardware (ROS package and its Dataset). Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
 
 The proposed localization framework can be visualizes as: 
 
@@ -26,7 +23,7 @@ A hardware demonstration experiment setup is shown below using the configuration
 Below, we present different datasets and associated robot localization trajectories or information.
 
 
-### Simulation [Experimental Datasets]
+### Simulation [Codes and Experimental Datasets]
 
 Simulation experimentations taken place for 6 x 6 meter of bounded region where Access Point is placed on the top of the moving robot and wireless sensor nodes places at the fixed positions (corners) which are (0,0), (0,6), (6,0), and (6,6) respectively. Robot followed three different trajectoriers: Inside, Boundary and Diagonal. For each of the trajectory we predicted the position using multiple localization techniques and proposed approach as well.
 
@@ -60,10 +57,11 @@ Experimenatation Testbed and datapoints can be visualized as:
 
 The reference at [2] povides details of the dataset completely.
 
- ### ros [ROS based hardware Demonstration Experiment Dataset]
- #### Offline Locaization
-##### Node Publisher
-This folder contains ros package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
+ ### Hardware [ROS-based hardware Demonstration Experiment Dataset]
+ 
+ 
+#### Node Publisher
+This folder uses a ROS package (ros_network_analysis) which consists of wireless publisher node scripts along with the server subscriber script.
 For latest source code on this package, please download the ros_network_analysis package from its source code following the instructions at https://github.com/herolab-uga/ros-network-analysis 
 
 To launch the network_analysis run: `$ roslaunch network_analysis wireless_quality.launch <node_id>`
