@@ -99,7 +99,7 @@ Experimenatation Testbed and datapoints can be visualized as:
 
 ## Core contributors
 
-* **Ehsan Latif** - PhD student
+* **Ehsan Latif** - PhD Candidate
 
 * **Dr. Ramviyas Parasuraman** - Principal Investigator
 
