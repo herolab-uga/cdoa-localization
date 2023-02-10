@@ -1,4 +1,4 @@
-Instantaneous Wireless Robotic Node Localization Using Collaborative Direction of Arrival
+# Instantaneous Wireless Robotic Node Localization Using Collaborative Direction of Arrival
 
 ## Overview
 This repository contains the datasets and scripts used in the experimentation for localization algorithm using Wireless signal Collaborative Direction of Arrival (CDOA) estimated using a mobile robot - wireless sensor network (WSN) cooperation mechanism in real-time. Three set of experimentational content is provided in this repository: 1. Simulation (Datasets and Codes), 2. Real-world public datasets from the literature (Dataset1 [1] and Dataset2 [2]), 4. Real Robot Hardware (ROS package and its Dataset). Each content in enclosed in separate folder with the respective name. Simulation scripts generate data internally, However, realworld exprimentation require data files which are included with the respective folder in the repository.
